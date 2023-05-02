@@ -1,11 +1,82 @@
 {
-    "class":[
-        {
-            "id": 1,
-            "description": "detail",
-            "proficientcy": "stat",
-            "commonName": "name"
-            
-            }]
-        
-}
+    "classes": [
+    {
+    "id": 1,
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/classes/barbarian"
+},
+    {
+    "id": 2,
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/classes/bard"
+},
+    {
+    "id": 3,
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/classes/cleric"
+},
+    {
+    "id": 4,
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/classes/druid"
+},
+    {
+        "id": 5,
+
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/classes/fighter"
+},
+    {
+        "id": 6,
+
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/classes/monk"
+},
+    {
+        "id": 7,
+
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/classes/paladin"
+},
+    {
+        "id": 7,
+
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/classes/ranger"
+},
+    {
+        "id": 8,
+
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/classes/rogue"
+},
+    {
+        "id": 9,
+
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/classes/sorcerer"
+},
+    {    
+        "id": 10,
+
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/classes/warlock"
+},
+    {
+        "id": 11,
+
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/classes/wizard"
+}]}
