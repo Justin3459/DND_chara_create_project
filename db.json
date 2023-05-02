@@ -320,7 +320,7 @@
             "proficiency-bonus": "3",
             "features": "Destroy Undead(CD 1/2)",
             "Cantrips": "4",
-            "Spells Known": "Wisdom + Cleric Level8"
+            "Spells Known": "Wisdom + Cleric Level"
             
         }],
         "6": [{
@@ -800,35 +800,846 @@
     {
     "id": 7,
     "index": "paladin",
-    "name": "Paladin"
+    "name": "Paladin",
+    "Paladin": [{
+        "1": [{
+            "proficiency-bonus": "2",
+            "features": "Divine Sense, Lay on Hands",
+            "Spells Known": "Charisma + Paladin Level"
+        }],
+        "2": [{
+            "proficiency-bonus": "2",
+            "features": "Fighting Style, Spellcasting, Divine Smite",
+            "spells knowns ": "Charisma + Paladin Level"
+            
+        }],
+        "3": [{
+            "proficiency-bonus": "2",
+            "features": "Divine Health, Sacred Oath",
+            "Spells Known": "Charisma + Paladin Level"
+            
+        }],
+        "4": [{
+            "proficiency-bonus": "2",
+            "features": "Ability Score Improvement",
+            "Spells Known": "Charisma + Paladin Level"
+            
+        }],
+        "5": [{
+            "proficiency-bonus": "3",
+            "features": "Extra Attack",
+            "Spells Known": "Charisma + Paladin Level"
+            
+        }],
+        "6": [{
+            "proficiency-bonus": "3",
+            "features": "Aura of Protection",
+            "Spells Known": "Charisma + Paladin Level"
+            
+        }],
+        "7": [{
+            "proficiency-bonus": "3",
+            "features": "sacred Oath Feature",
+            "Spells Known": "Charisma + Paladin Level"
+            
+        }],
+        "8": [{
+            "proficiency-bonus": "3",
+            "features": "Ability Score Improvement",
+            "Spells Known": "Charisma + Paladin Level"
+            
+        }],
+        "9": [{
+            "proficiency-bonus": "4",
+            "features": "none",
+            "Spells Known": "Charisma + Paladin Level"
+            
+        }],
+        "10": [{
+            "proficiency-bonus": "4",
+            "features": "Aura of Courage",
+            "Spells Known": "Charisma + Paladin Level"
+            
+        }],
+        "11": [{
+            "proficiency-bonus": "4",
+            "features": "Improved Divine Smite",
+            "Spells Known": "Charisma + Paladin Level"
+            
+        }],
+        "12": [{
+            "proficiency-bonus": "4",
+            "features": "Ability Score Improvement",
+            "Spells Known": "Charisma + Paladin Level"
+        }],
+        "13": [{
+            "proficiency-bonus": "5",
+            "features": "none",
+            "Spells Known": "Charisma + Paladin Level"
+        }],
+        "14": [{
+            "proficiency-bonus": "5",
+            "features": "Cleansing Touch",
+            "Spells Known": "Charisma + Paladin Level"
+        }],
+        "15": [{
+            "proficiency-bonus": "5",
+            "features": "sacred Oath Feature",
+            "Spells Known": "Charisma + Paladin Level"
+        }],
+        "16": [{
+            "proficiency-bonus": "5",
+            "features": "Ability Score Improvement",
+            "Spells Known": "Charisma + Paladin Level"
+        }],
+        "17": [{
+            "proficiency-bonus": "6",
+            "features": "none",
+            "Spells Known": "Charisma + Paladin Level"
+        }],
+        "18": [{
+            "proficiency-bonus": "6",
+            "features": "Aura Improvements",
+            "Spells Known": "Charisma + Paladin Level"
+        }],
+        "19": [{
+            "proficiency-bonus": "6",
+            "features": "Ability Score Improvement",
+            "Spells Known": "Charisma + Paladin Level"
+        }],
+        "20": [{
+            "proficiency-bonus": "6",
+            "features": "sacred Oath Feature",
+            "Spells Known": "Charisma + Paladin Level"
+        }]
+    }]
 },
     {
     "id": 7,
     "index": "ranger",
-    "name": "Ranger"
+    "name": "Ranger",
+    "Ranger": [{
+        "1": [{
+            "proficiency-bonus": "2",
+            "features": "Favored Enemy, Natural Explorer",
+            "Spells Known": "none"
+        }],
+        "2": [{
+            "proficiency-bonus": "2",
+            "features": "Fighting Style, Spellcasting",
+            "spells knowns ": "2"
+            
+        }],
+        "3": [{
+            "proficiency-bonus": "2",
+            "features": "Ranger Archetype, Primeval Awareness",
+            "Spells Known": "3"
+            
+        }],
+        "4": [{
+            "proficiency-bonus": "2",
+            "features": "Ability Score Improvement",
+            "Spells Known": "3"
+            
+        }],
+        "5": [{
+            "proficiency-bonus": "3",
+            "features": "Extra Attack",
+            "Spells Known": "4"
+            
+        }],
+        "6": [{
+            "proficiency-bonus": "3",
+            "features": "Favored Enemy and Natural Explorer Improvements",
+            "Spells Known": "4"
+            
+        }],
+        "7": [{
+            "proficiency-bonus": "3",
+            "features": "Ranger Archetype Feature",
+            "Spells Known": "5"
+            
+        }],
+        "8": [{
+            "proficiency-bonus": "3",
+            "features": "Ability Score Improvement, Land Stride",
+            "Spells Known": "5"
+            
+        }],
+        "9": [{
+            "proficiency-bonus": "4",
+            "features": "none",
+            "Spells Known": "6"
+            
+        }],
+        "10": [{
+            "proficiency-bonus": "4",
+            "features": "Natural Explorer Improvement, Hide in Plain Sight",
+            "Spells Known": "6"
+            
+        }],
+        "11": [{
+            "proficiency-bonus": "4",
+            "features": "Ranger Archetype Feature",
+            "Spells Known": "7"
+            
+        }],
+        "12": [{
+            "proficiency-bonus": "4",
+            "features": "Ability Score Improvement",
+            "Spells Known": "7"
+        }],
+        "13": [{
+            "proficiency-bonus": "5",
+            "features": "none",
+            "Spells Known": "8"
+        }],
+        "14": [{
+            "proficiency-bonus": "5",
+            "features": "Favored Enemy Improvement, Vanish",
+            "Spells Known": "8"
+        }],
+        "15": [{
+            "proficiency-bonus": "5",
+            "features": "Ranger Archetype Feature",
+            "Spells Known": "9"
+        }],
+        "16": [{
+            "proficiency-bonus": "5",
+            "features": "Ability Score Improvement",
+            "Spells Known": "9"
+        }],
+        "17": [{
+            "proficiency-bonus": "6",
+            "features": "none",
+            "Spells Known": "10"
+        }],
+        "18": [{
+            "proficiency-bonus": "6",
+            "features": "Feral Sense",
+            "Spells Known": "10"
+        }],
+        "19": [{
+            "proficiency-bonus": "6",
+            "features": "Ability Score Improvement",
+            "Spells Known": "11"
+        }],
+        "20": [{
+            "proficiency-bonus": "6",
+            "features": "Foe Slayer",
+            "Spells Known": "11"
+        }]
+    }]
 },
     {
     "id": 8,
     "index": "rogue",
-    "name": "Rogue"
+    "name": "Rogue",
+    "Rogue": [{
+        "1": [{
+            "proficiency-bonus": "2",
+            "features": "Expertise, Sneak Attack, Thieves' Cant",
+            "sneak attack": "1d6"
+        }],
+        "2": [{
+            "proficiency-bonus": "2",
+            "features": "Cunning Action",
+            "sneak attack": "1d6"
+            
+        }],
+        "3": [{
+            "proficiency-bonus": "2",
+            "features": "Roguish Archetype",
+            "sneak attack": "2d6"
+            
+        }],
+        "4": [{
+            "proficiency-bonus": "2",
+            "features": "Ability Score Improvement",
+            "sneak attack": "2d6"
+            
+        }],
+        "5": [{
+            "proficiency-bonus": "3",
+            "features": "Uncanny Dodge",
+            "sneak attack": "3d6"
+            
+        }],
+        "6": [{
+            "proficiency-bonus": "3",
+            "features": "Expertise",
+            "sneak attack": "3d6"
+            
+        }],
+        "7": [{
+            "proficiency-bonus": "3",
+            "features": "Evasion",
+            "sneak attack": "4d6"
+            
+        }],
+        "8": [{
+            "proficiency-bonus": "3",
+            "features": "Ability Score Improvement",
+            "sneak attack": "4d6"
+            
+        }],
+        "9": [{
+            "proficiency-bonus": "4",
+            "features": "Roguish Archetype Feature",
+            "sneak attack": "5d6"
+            
+        }],
+        "10": [{
+            "proficiency-bonus": "4",
+            "features": "Ability Score Improvement",
+            "sneak attack": "5d6"
+            
+        }],
+        "11": [{
+            "proficiency-bonus": "4",
+            "features": "Reliable Talent",
+            "sneak attack": "6d6"
+            
+        }],
+        "12": [{
+            "proficiency-bonus": "4",
+            "features": "Ability Score Improvement",
+            "sneak attack": "6d6"
+        }],
+        "13": [{
+            "proficiency-bonus": "5",
+            "features": "Roguish Archetype Feature",
+            "sneak attack": "7d6"
+        }],
+        "14": [{
+            "proficiency-bonus": "5",
+            "features": "Blindsense",
+            "sneak attack": "7d6"
+        }],
+        "15": [{
+            "proficiency-bonus": "5",
+            "features": "Slippery Mind",
+            "sneak attack": "8d6"
+        }],
+        "16": [{
+            "proficiency-bonus": "5",
+            "features": "Ability Score Improvement",
+            "sneak attack": "8d6"
+        }],
+        "17": [{
+            "proficiency-bonus": "6",
+            "features": "Roguish Archetype Feature",
+            "sneak attack": "9d6"
+        }],
+        "18": [{
+            "proficiency-bonus": "6",
+            "features": "Elusive",
+            "sneak attack": "9d6"
+        }],
+        "19": [{
+            "proficiency-bonus": "6",
+            "features": "Ability Score Improvement",
+            "sneak attack": "10d6"
+        }],
+        "20": [{
+            "proficiency-bonus": "6",
+            "features": "Stroke of Luck",
+            "sneak attack": "10d6"
+        }]
+    }]
 },
     {
         "id": 9,
 
     "index": "sorcerer",
-    "name": "Sorcerer"
+    "name": "Sorcerer",
+    "Sorcerer": [{
+        "1": [{
+            "proficiency-bonus": "2",
+            "sorcerer-points":"none",
+            "features": "Spellcasting, Sorerer Origin",
+            "Cantrips": "4",
+            "Spells Known": "2"
+        }],
+        "2": [{
+            "proficiency-bonus": "2",
+            "sorcerer-points":"2",
+            "features": "Font of Magic",
+            "cantrips": "4",
+            "spells knowns ": "3"
+            
+        }],
+        "3": [{
+            "proficiency-bonus": "2",
+            "sorcerer-points":"3",
+            "features": "Metamagic",
+            "Cantrips": "4",
+            "Spells Known": "4"
+            
+        }],
+        "4": [{
+            "proficiency-bonus": "2",
+            "sorcerer-points":"4",
+            "features": "Ability Score Improvement",
+            "Cantrips": "5",
+            "Spells Known": "5"
+            
+        }],
+        "5": [{
+            "proficiency-bonus": "3",
+            "sorcerer-points":"none",
+            "features": "Ability Score Improvement",
+            "Cantrips": "5",
+            "Spells Known": "6"
+            
+        }],
+        "6": [{
+            "proficiency-bonus": "3",
+            "sorcerer-points":"6",
+            "features": "Sorcerer Origin Feature",
+            "Cantrips": "5",
+            "Spells Known": "7"
+            
+        }],
+        "7": [{
+            "proficiency-bonus": "3",
+            "sorcerer-points":"7",
+            "features": "none",
+            "Cantrips": "5",
+            "Spells Known": "8"
+            
+        }],
+        "8": [{
+            "proficiency-bonus": "3",
+            "sorcerer-points":"8",
+            "features": "Ability Score Improvement",
+            "Cantrips": "5",
+            "Spells Known": "9"
+            
+        }],
+        "9": [{
+            "proficiency-bonus": "4",
+            "sorcerer-points":"9",
+            "features": "none",
+            "Cantrips": "5",
+            "Spells Known": "10"
+            
+        }],
+        "10": [{
+            "proficiency-bonus": "4",
+            "sorcerer-points":"10",
+            "features": "Metamagic",
+            "Cantrips": "6",
+            "Spells Known": "11"
+            
+        }],
+        "11": [{
+            "proficiency-bonus": "4",
+            "sorcerer-points":"11",
+            "features": "none",
+            "Cantrips": "6",
+            "Spells Known": "12"
+            
+        }],
+        "12": [{
+            "proficiency-bonus": "4",
+            "sorcerer-points":"12",
+            "features": "Ability Score Improvement",
+            "Cantrips": "6",
+            "Spells Known": "12"
+        }],
+        "13": [{
+            "proficiency-bonus": "5",
+            "sorcerer-points":"13",
+            "features": "none",
+            "Cantrips": "6",
+            "Spells Known": "13"
+        }],
+        "14": [{
+            "proficiency-bonus": "5",
+            "sorcerer-points":"14",
+            "features": "Sorcerous Origin Feature",
+            "Cantrips": "6",
+            "Spells Known": "13"
+        }],
+        "15": [{
+            "proficiency-bonus": "5",
+            "sorcerer-points":"15",
+            "features": "none",
+            "Cantrips": "6",
+            "Spells Known": "14"
+        }],
+        "16": [{
+            "proficiency-bonus": "5",
+            "sorcerer-points":"16",
+            "features": "Ability Score Improvement",
+            "Cantrips": "6",
+            "Spells Known": "14"
+        }],
+        "17": [{
+            "proficiency-bonus": "6",
+            "sorcerer-points":"17",
+            "features": "Metamagic",
+            "Cantrips": "6",
+            "Spells Known": "15"
+        }],
+        "18": [{
+            "proficiency-bonus": "6",
+            "sorcerer-points":"18",
+            "features": "Sorcerous Origin",
+            "Cantrips": "6",
+            "Spells Known": "15"
+        }],
+        "19": [{
+            "proficiency-bonus": "6",
+            "sorcerer-points":"19",
+            "features": "Ability Score Improvement",
+            "Cantrips": "6",
+            "Spells Known": "15"
+        }],
+        "20": [{
+            "proficiency-bonus": "6",
+            "sorcerer-points":"20",
+            "features": "Sorcerous Restoration",
+            "Cantrips": "6",
+            "Spells Known": "15"
+        }]
+    }]
 },
     {    
         "id": 10,
 
     "index": "warlock",
-    "name": "Warlock"
+    "name": "Warlock",
+    "Warlock": [{
+        "1": [{
+            "proficiency-bonus": "2",
+            "features": "Otherworldly Patron, Pact Magic",
+            "Cantrips": "2",
+            "Spells Known": "2",
+            "Spell Slot":"1",
+            "Slot Level": "1",
+            "Invocation Known": "none"
+        }],
+        "2": [{
+            "proficiency-bonus": "2",
+            "features": "Eldritch Invocations",
+            "Cantrips": "2",
+            "Spells Known": "3",
+            "Spell Slot":"2",
+            "Slot Level": "1",
+            "Invocation Known": "2"
+        }],
+        "3": [{
+            "proficiency-bonus": "2",
+            "features": "Pact Boon",
+            "Cantrips": "2",
+            "Spells Known": "4",
+            "Spell Slot":"2",
+            "Slot Level": "2",
+            "Invocation Known": "2"
+            
+        }],
+        "4": [{
+            "proficiency-bonus": "2",
+            "features": "Ability Score Improvement",
+            "Cantrips": "3",
+            "Spells Known": "5",
+            "Spell Slot":"2",
+            "Slot Level": "2",
+            "Invocation Known": "2"
+            
+        }],
+        "5": [{
+            "proficiency-bonus": "3",
+            "features": "none",
+            "Cantrips": "3",
+            "Spells Known": "6",
+            "Spell Slot":"2",
+            "Slot Level": "3",
+            "Invocation Known": "3"
+            
+        }],
+        "6": [{
+            "proficiency-bonus": "3",
+            "features": "Otherworldly Patron Feature",
+            "Cantrips": "3",
+            "Spells Known": "7",
+            "Spell Slot":"2",
+            "Slot Level": "3",
+            "Invocation Known": "3"
+            
+        }],
+        "7": [{
+            "proficiency-bonus": "3",
+            "features": "none",
+            "Cantrips": "3",
+            "Spells Known": "8",
+            "Spell Slot":"2",
+            "Slot Level": "4",
+            "Invocation Known": "4"
+            
+        }],
+        "8": [{
+            "proficiency-bonus": "3",
+            "features": "Ability Score Improvement",
+            "Cantrips": "3",
+            "Spells Known": "9",
+            "Spell Slot":"2",
+            "Slot Level": "4",
+            "Invocation Known": "4"
+            
+        }],
+        "9": [{
+            "proficiency-bonus": "4",
+            "features": "none",
+            "Cantrips": "3",
+            "Spells Known": "10",
+            "Spell Slot":"2",
+            "Slot Level": "5",
+            "Invocation Known": "5"
+            
+        }],
+        "10": [{
+            "proficiency-bonus": "4",
+            "features": "Otherworldly Patron Feature",
+            "Cantrips": "4",
+            "Spells Known": "10",
+            "Spell Slot":"2",
+            "Slot Level": "5",
+            "Invocation Known": "5"
+            
+        }],
+        "11": [{
+            "proficiency-bonus": "4",
+            "features": "Mystic Arcanum(6th Level)",
+            "Cantrips": "4",
+            "Spells Known": "11",
+            "Spell Slot":"3",
+            "Slot Level": "5",
+            "Invocation Known": "5"
+            
+        }],
+        "12": [{
+            "proficiency-bonus": "4",
+            "features": "Ability Score Improvement",
+            "Cantrips": "4",
+            "Spells Known": "11",
+            "Spell Slot":"3",
+            "Slot Level": "5",
+            "Invocation Known": "6"
+        }],
+        "13": [{
+            "proficiency-bonus": "5",
+            "features": "Mystic Arcanum(7th Level)",
+            "Cantrips": "4",
+            "Spells Known": "12",
+            "Spell Slot":"3",
+            "Slot Level": "5",
+            "Invocation Known": "6"
+        }],
+        "14": [{
+            "proficiency-bonus": "5",
+            "features": "Otherworldly Patron Feature",
+            "Cantrips": "4",
+            "Spells Known": "12",
+            "Spell Slot":"3",
+            "Slot Level": "5",
+            "Invocation Known": "6"
+        }],
+        "15": [{
+            "proficiency-bonus": "5",
+            "features": "Mystic Arcanum(8th Level)",
+            "Cantrips": "4",
+            "Spells Known": "13",
+            "Spell Slot":"3",
+            "Slot Level": "5",
+            "Invocation Known": "7"
+        }],
+        "16": [{
+            "proficiency-bonus": "5",
+            "features": "Ability Score Improvement",
+            "Cantrips": "4",
+            "Spells Known": "13",
+            "Spell Slot":"3",
+            "Slot Level": "5",
+            "Invocation Known": "7"
+        }],
+        "17": [{
+            "proficiency-bonus": "6",
+            "features": "Mystic Arcanum(9th Level)",
+            "Cantrips": "4",
+            "Spells Known": "14",
+            "Spell Slot":"4",
+            "Slot Level": "5",
+            "Invocation Known": "7"
+        }],
+        "18": [{
+            "proficiency-bonus": "6",
+            "features": "none",
+            "Cantrips": "4",
+            "Spells Known": "14",
+            "Spell Slot":"4",
+            "Slot Level": "5",
+            "Invocation Known": "8"
+        }],
+        "19": [{
+            "proficiency-bonus": "6",
+            "features": "Ability Score Improvement",
+            "Cantrips": "4",
+            "Spells Known": "15",
+            "Spell Slot":"4",
+            "Slot Level": "5",
+            "Invocation Known": "8"
+        }],
+        "20": [{
+            "proficiency-bonus": "6",
+            "features": "Eldritch Master",
+            "Cantrips": "4",
+            "Spells Known": "15",
+            "Spell Slot":"4",
+            "Slot Level": "5",
+            "Invocation Known": "8"
+        }]
+    }]
 },
     {
         "id": 11,
 
     "index": "wizard",
-    "name": "Wizard"
+    "name": "Wizard",
+    "Cleric": [{
+        "1": [{
+            "proficiency-bonus": "2",
+            "features": "Spellcasting, Arcane Recovery",
+            "Cantrips": "3",
+            "Spells Known": "Intelligence + Wizard Level"
+        }],
+        "2": [{
+            "proficiency-bonus": "2",
+            "features": "Arcane Tradition",
+            "cantrips": "3",
+            "spells knowns ": "Intelligence + Wizard Level"
+            
+        }],
+        "3": [{
+            "proficiency-bonus": "2",
+            "features": "none",
+            "Cantrips": "3",
+            "Spells Known": "Intelligence + Wizard Level"
+            
+        }],
+        "4": [{
+            "proficiency-bonus": "2",
+            "features": "Ability Score Improvement",
+            "Cantrips": "4",
+            "Spells Known": "Intelligence + Wizard Level"
+            
+        }],
+        "5": [{
+            "proficiency-bonus": "3",
+            "features": "none",
+            "Cantrips": "4",
+            "Spells Known": "Intelligence + Wizard Level"
+            
+        }],
+        "6": [{
+            "proficiency-bonus": "3",
+            "features": "Arcane Tradition",
+            "Cantrips": "4",
+            "Spells Known": "Intelligence + Wizard Level"
+            
+        }],
+        "7": [{
+            "proficiency-bonus": "3",
+            "features": "none",
+            "Cantrips": "4",
+            "Spells Known": "Intelligence + Wizard Level"
+            
+        }],
+        "8": [{
+            "proficiency-bonus": "3",
+            "features": "Ability Score Improvement",
+            "Cantrips": "4",
+            "Spells Known": "Intelligence + Wizard Level"
+            
+        }],
+        "9": [{
+            "proficiency-bonus": "4",
+            "features": "none",
+            "Cantrips": "4",
+            "Spells Known": "Intelligence + Wizard Level"
+            
+        }],
+        "10": [{
+            "proficiency-bonus": "4",
+            "features": "Arcane Tradition Feature",
+            "Cantrips": "5",
+            "Spells Known": "Intelligence + Wizard Level"
+            
+        }],
+        "11": [{
+            "proficiency-bonus": "4",
+            "features": "none",
+            "Cantrips": "5",
+            "Spells Known": "Intelligence + Wizard Level"
+            
+        }],
+        "12": [{
+            "proficiency-bonus": "4",
+            "features": "Ability Score Improvement",
+            "Cantrips": "5",
+            "Spells Known": "Intelligence + Wizard Level"
+        }],
+        "13": [{
+            "proficiency-bonus": "5",
+            "features": "none",
+            "Cantrips": "5",
+            "Spells Known": "Intelligence + Wizard Level"
+        }],
+        "14": [{
+            "proficiency-bonus": "5",
+            "features": "Arcane Tradition Feature",
+            "Cantrips": "5",
+            "Spells Known": "Intelligence + Wizard Level"
+        }],
+        "15": [{
+            "proficiency-bonus": "5",
+            "features": "none",
+            "Cantrips": "5",
+            "Spells Known": "Intelligence + Wizard Level"
+        }],
+        "16": [{
+            "proficiency-bonus": "5",
+            "features": "Ability Score Improvement",
+            "Cantrips": "5",
+            "Spells Known": "Intelligence + Wizard Level"
+        }],
+        "17": [{
+            "proficiency-bonus": "6",
+            "features": "none",
+            "Cantrips": "5",
+            "Spells Known": "Intelligence + Wizard Level"
+        }],
+        "18": [{
+            "proficiency-bonus": "6",
+            "features": "Spell Mastery",
+            "Cantrips": "5",
+            "Spells Known": "Intelligence + Wizard Level"
+        }],
+        "19": [{
+            "proficiency-bonus": "6",
+            "features": "Ability Score Improvement",
+            "Cantrips": "5",
+            "Spells Known": "Intelligence + Wizard Level"
+        }],
+        "20": [{
+            "proficiency-bonus": "6",
+            "features": "Signature Spells",
+            "Cantrips": "5",
+            "Spells known": "Intelligence + Wizard Level"
+        }]
+    }]
 }
 ]}
 ]}
