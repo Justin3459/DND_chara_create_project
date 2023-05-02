@@ -1,82 +1,834 @@
 {
     "classes": [
     {
-    "id": 1,
-    "index": "barbarian",
-    "name": "Barbarian",
-    "url": "/api/classes/barbarian"
-},
+        "id": 1,
+        "index": "barbarian",
+        "name": "Barbarian",
+        "Barbarian": [{
+            "1": [{
+                "proficiency-bonus": "2",
+                "features": "Rage, Unarmored Defence",
+                "rages": "2",
+                "rage-damage": "2"
+                
+            }],
+            "2": [{
+                "proficiency-bonus": "2",
+                "features": "Reckless Attack, Danger Sense",
+                "rages": "2",
+                "rage-damage": "2"
+                
+            }],
+            "3": [{
+                "proficiency-bonus": "2",
+                "features": "Primal Path",
+                "rages": "3",
+                "rage-damage": "2"
+                
+            }],
+            "4": [{
+                "proficiency-bonus": "2",
+                "features": "Ability Score Improvement",
+                "rages": "3",
+                "rage-damage": "2"
+                
+            }],
+            "5": [{
+                "proficiency-bonus": "3",
+                "features": "Extra Attack, Fast Movement",
+                "rages": "3",
+                "rage-damage": "2"
+                
+            }],
+            "6": [{
+                "proficiency-bonus": "3",
+                "features": "Path Feature",
+                "rages": "4",
+                "rage-damage": "2"
+                
+            }],
+            "7": [{
+                "proficiency-bonus": "3",
+                "features": "Feral Instinct",
+                "rages": "4",
+                "rage-damage": "2"
+                
+            }],
+            "8": [{
+                "proficiency-bonus": "3",
+                "features": "Ability Score Improvement",
+                "rages": "4",
+                "rage-damage": "2"
+                
+            }],
+            "9": [{
+                "proficiency-bonus": "4",
+                "features": "Brutal Critical(1 dice)",
+                "rages": "4",
+                "rage-damage": "3"
+                
+            }],
+            "10": [{
+                "proficiency-bonus": "4",
+                "features": "Path Feature",
+                "rages": "4",
+                "rage-damage": "3"
+                
+            }],
+            "11": [{
+                "proficiency-bonus": "4",
+                "features": "Relentless Rage",
+                "rages": "4",
+                "rage-damage": "3"
+                
+            }],
+            "12": [{
+                "proficiency-bonus": "4",
+                "features": "Ability Score Improvement",
+                "rages": "5",
+                "rage-damage": "3"
+                
+            }],
+            "13": [{
+                "proficiency-bonus": "5",
+                "features": "Brutal Critical(2 dice)",
+                "rages": "5",
+                "rage-damage": "3"
+                
+            }],
+            "14": [{
+                "proficiency-bonus": "5",
+                "features": "Path Feature",
+                "rages": "5",
+                "rage-damage": "3"
+                
+            }],
+            "15": [{
+                "proficiency-bonus": "5",
+                "features": "Persistent Rage",
+                "rages": "5",
+                "rage-damage": "3"
+                
+            }],
+            "16": [{
+                "proficiency-bonus": "5",
+                "features": "Ability Score Improvement",
+                "rages": "5",
+                "rage-damage": "4"
+                
+            }],
+            "17": [{
+                "proficiency-bonus": "6",
+                "features": "Brutal Critical(3 dice)",
+                "rages": "6",
+                "rage-damage": "4"
+                
+            }],
+            "18": [{
+                "proficiency-bonus": "6",
+                "features": "Imdomitable Might",
+                "rages": "6",
+                "rage-damage": "4"
+                
+            }],
+            "19": [{
+                "proficiency-bonus": "6",
+                "features": "Ability Score Improvement",
+                "rages": "6",
+                "rage-damage": "4"
+                
+            }],
+            "20": [{
+                "proficiency-bonus": "6",
+                "features": "Primal Champion",
+                "rages": "Unlimited",
+                "rage-damage": "4"
+                
+            }]
+        }
+    ]},
     {
-    "id": 2,
-    "index": "bard",
-    "name": "Bard",
-    "url": "/api/classes/bard"
-},
+        "id": 2,
+        "index": "bard",
+        "name": "Bard",
+        "Bard": [{
+            "1": [{
+            "proficiency-bonus": "2",
+            "features": "Spellcasting, Bardic Inspiration(1d6)",
+            "Cantrips": "2",
+            "Spells Known": "4"
+            
+        }],
+        "2": [{
+            "proficiency-bonus": "2",
+            "features": "Jack of All Trades, Song of Rest",
+            "cantrips": "2",
+            "spells knowns ": "2"
+            
+        }],
+        "3": [{
+            "proficiency-bonus": "2",
+            "features": "Bard College",
+            "Cantrips": "2",
+            "Spells Known": "6"
+            
+        }],
+        "4": [{
+            "proficiency-bonus": "2",
+            "features": "Ability Score Improvement",
+            "Cantrips": "3",
+            "Spells Known": "7"
+            
+        }],
+        "5": [{
+            "proficiency-bonus": "3",
+            "features": "Bardic Inspiration(1d8)",
+            "Cantrips": "3",
+            "Spells Known": "8"
+            
+        }],
+        "6": [{
+            "proficiency-bonus": "3",
+            "features": "Countercharm, Bard College Feature",
+            "Cantrips": "3",
+            "Spells Known": "9"
+            
+        }],
+        "7": [{
+            "proficiency-bonus": "3",
+            "features": "none",
+            "Cantrips": "3",
+            "Spells Known": "10"
+            
+        }],
+        "8": [{
+            "proficiency-bonus": "3",
+            "features": "Ability Score Improvement",
+            "Cantrips": "3",
+            "Spells Known": "11"
+            
+        }],
+        "9": [{
+            "proficiency-bonus": "4",
+            "features": "Song of Rest (1d8)",
+            "Cantrips": "3",
+            "Spells Known": "12"
+            
+        }],
+        "10": [{
+            "proficiency-bonus": "4",
+            "features": "Bardic Inspiration(1d10), Expertise, Magical Secrets",
+            "Cantrips": "4",
+            "Spells Known": "14"
+            
+        }],
+        "11": [{
+            "proficiency-bonus": "4",
+            "features": "none",
+            "Cantrips": "4",
+            "Spells Known": "15"
+            
+        }],
+        "12": [{
+            "proficiency-bonus": "4",
+            "features": "Ability Score Improvement",
+            "Cantrips": "4",
+            "Spells Known": "15"
+        }],
+        "13": [{
+            "proficiency-bonus": "5",
+            "features": "Song of Rest(1d10)",
+            "Cantrips": "4",
+            "Spells Known": "16"
+        }],
+        "14": [{
+            "proficiency-bonus": "5",
+            "features": "Magical Secrets, Bard College Feature",
+            "Cantrips": "4",
+            "Spells Known": "18"
+        }],
+        "15": [{
+            "proficiency-bonus": "5",
+            "features": "Bardic Inspiration(1d12)",
+            "Cantrips": "4",
+            "Spells Known": "19"
+        }],
+        "16": [{
+            "proficiency-bonus": "5",
+            "features": "Ability Score Improvement",
+            "Cantrips": "4",
+            "Spells Known": "19"
+        }],
+        "17": [{
+            "proficiency-bonus": "6",
+            "features": "Song of Rest (1d12)",
+            "Cantrips": "4",
+            "Spells Known": "20"
+        }],
+        "18": [{
+            "proficiency-bonus": "6",
+            "features": "Magical Secrets",
+            "Cantrips": "4",
+            "Spells Known": "22"
+        }],
+        "19": [{
+            "proficiency-bonus": "6",
+            "features": "Ability Score Improvement",
+            "Cantrips": "4",
+            "Spells Known": "22"
+        }],
+        "20": [{
+            "proficiency-bonus": "6",
+            "features": "Superior Inspiration",
+            "Cantrips": "4",
+            "Spells Known": "22"
+        }]
+    },
     {
     "id": 3,
     "index": "cleric",
     "name": "Cleric",
-    "url": "/api/classes/cleric"
+    "Cleric": [{
+        "1": [{
+            "proficiency-bonus": "2",
+            "features": "Spellcasting, Divine Domain",
+            "Cantrips": "3",
+            "Spells Known": "Wisdom + Cleric Level"
+        }],
+        "2": [{
+            "proficiency-bonus": "2",
+            "features": "Channel Divinity(1/rest), Divine Domain Feature",
+            "cantrips": "3",
+            "spells knowns ": "Wisdom + Cleric Level"
+            
+        }],
+        "3": [{
+            "proficiency-bonus": "2",
+            "features": "none",
+            "Cantrips": "3",
+            "Spells Known": "Wisdom + Cleric Level"
+            
+        }],
+        "4": [{
+            "proficiency-bonus": "2",
+            "features": "Ability Score Improvement",
+            "Cantrips": "4",
+            "Spells Known": "Wisdom + Cleric Level"
+            
+        }],
+        "5": [{
+            "proficiency-bonus": "3",
+            "features": "Destroy Undead(CD 1/2)",
+            "Cantrips": "4",
+            "Spells Known": "Wisdom + Cleric Level8"
+            
+        }],
+        "6": [{
+            "proficiency-bonus": "3",
+            "features": "Channel Divinity(2/rest), Divine Domain Feature",
+            "Cantrips": "4",
+            "Spells Known": "Wisdom + Cleric Level"
+            
+        }],
+        "7": [{
+            "proficiency-bonus": "3",
+            "features": "none",
+            "Cantrips": "4",
+            "Spells Known": "Wisdom + Cleric Level"
+            
+        }],
+        "8": [{
+            "proficiency-bonus": "3",
+            "features": "Ability Score Improvement, Destroy Undead(CR 1), Divine Domain Feature",
+            "Cantrips": "4",
+            "Spells Known": "Wisdom + Cleric Level"
+            
+        }],
+        "9": [{
+            "proficiency-bonus": "4",
+            "features": "none",
+            "Cantrips": "4",
+            "Spells Known": "Wisdom + Cleric Level"
+            
+        }],
+        "10": [{
+            "proficiency-bonus": "4",
+            "features": "Divine Intervention",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+            
+        }],
+        "11": [{
+            "proficiency-bonus": "4",
+            "features": "Destroy Undead(CD 2)",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+            
+        }],
+        "12": [{
+            "proficiency-bonus": "4",
+            "features": "Ability Score Improvement",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+        }],
+        "13": [{
+            "proficiency-bonus": "5",
+            "features": "none",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+        }],
+        "14": [{
+            "proficiency-bonus": "5",
+            "features": "Destroy Undead(CD 3)",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+        }],
+        "15": [{
+            "proficiency-bonus": "5",
+            "features": "none",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+        }],
+        "16": [{
+            "proficiency-bonus": "5",
+            "features": "Ability Score Improvement",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+        }],
+        "17": [{
+            "proficiency-bonus": "6",
+            "features": "Destroy Undead(CD 4)",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+        }],
+        "18": [{
+            "proficiency-bonus": "6",
+            "features": "Channel Divinity(3/rest)",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+        }],
+        "19": [{
+            "proficiency-bonus": "6",
+            "features": "Ability Score Improvement",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+        }],
+        "20": [{
+            "proficiency-bonus": "6",
+            "features": "Divine Intervention Improvement",
+            "Cantrips": "5",
+            "Spells Known": "Wisdom + Cleric Level"
+        }]
+    }]
+
 },
     {
     "id": 4,
     "index": "druid",
     "name": "Druid",
-    "url": "/api/classes/druid"
+    "Druid":[{    
+    "1": [{
+        "proficiency-bonus": "2",
+        "features": "Druidic, Spellcasting",
+        "Cantrips": "2",
+        "Spells Known": "Wisdom + Druid Level"
+    }],
+    "2": [{
+        "proficiency-bonus": "2",
+        "features": "Wild Shape, Druid Circle",
+        "cantrips": "2",
+        "spells knowns ": "Wisdom + Druid Level"
+        
+    }],
+    "3": [{
+        "proficiency-bonus": "2",
+        "features": "none",
+        "Cantrips": "2",
+        "Spells Known": "Wisdom + Druid Level"
+        
+    }],
+    "4": [{
+        "proficiency-bonus": "2",
+        "features": "Wild Shape Improvement, Ability Score Improvement",
+        "Cantrips": "3",
+        "Spells Known": "Wisdom + Druid Level"
+        
+    }],
+    "5": [{
+        "proficiency-bonus": "3",
+        "features": "none",
+        "Cantrips": "3",
+        "Spells Known": "Wisdom + Druid Level8"
+        
+    }],
+    "6": [{
+        "proficiency-bonus": "3",
+        "features": "Druid Circle Feature",
+        "Cantrips": "3",
+        "Spells Known": "Wisdom + Druid Level"
+        
+    }],
+    "7": [{
+        "proficiency-bonus": "3",
+        "features": "none",
+        "Cantrips": "3",
+        "Spells Known": "Wisdom + Druid Level"
+        
+    }],
+    "8": [{
+        "proficiency-bonus": "3",
+        "features": "Wild Shape Improvement, Ability Score Improvement",
+        "Cantrips": "3",
+        "Spells Known": "Wisdom + Druid Level"
+        
+    }],
+    "9": [{
+        "proficiency-bonus": "4",
+        "features": "none",
+        "Cantrips": "3",
+        "Spells Known": "Wisdom + Druid Level"
+        
+    }],
+    "10": [{
+        "proficiency-bonus": "4",
+        "features": "Druid Circle Feature",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+        
+    }],
+    "11": [{
+        "proficiency-bonus": "4",
+        "features": "none",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+        
+    }],
+    "12": [{
+        "proficiency-bonus": "4",
+        "features": "Ability Score Improvement",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+    }],
+    "13": [{
+        "proficiency-bonus": "5",
+        "features": "none",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+    }],
+    "14": [{
+        "proficiency-bonus": "5",
+        "features": "Druid Circle Feature",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+    }],
+    "15": [{
+        "proficiency-bonus": "5",
+        "features": "none",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+    }],
+    "16": [{
+        "proficiency-bonus": "5",
+        "features": "Ability Score Improvement",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+    }],
+    "17": [{
+        "proficiency-bonus": "6",
+        "features": "none",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+    }],
+    "18": [{
+        "proficiency-bonus": "6",
+        "features": "Timeless Body, Beast Spells",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+    }],
+    "19": [{
+        "proficiency-bonus": "6",
+        "features": "Ability Score Improvement",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+    }],
+    "20": [{
+        "proficiency-bonus": "6",
+        "features": "Archdruid",
+        "Cantrips": "4",
+        "Spells Known": "Wisdom + Druid Level"
+    }]
+
+}]
 },
     {
-        "id": 5,
-
+    "id": 5,
     "index": "fighter",
     "name": "Fighter",
-    "url": "/api/classes/fighter"
+    "Fighter":[{    
+    "1": [{
+        "proficiency-bonus": "2",
+        "features": "Fighting Style, Second Wind"
+    }],
+    "2": [{
+        "proficiency-bonus": "2",
+        "features": "Action Surge(one use)"
+    }],
+    "3": [{
+        "proficiency-bonus": "2",
+        "features": "Martial Archtype"
+    }],
+    "4": [{
+        "proficiency-bonus": "2",
+        "features": "Ability Score Improvement"
+    
+    }],
+    "5": [{
+        "proficiency-bonus": "3",
+        "features": "Extra Attack" 
+    }],
+    "6": [{
+        "proficiency-bonus": "3",
+        "features": "Ability Score Improvement"
+    }],
+    "7": [{
+        "proficiency-bonus": "3",
+        "features": "Martial Archtype Feature" 
+    }],
+    "8": [{
+        "proficiency-bonus": "3",
+        "features": "Ability Score Improvement"
+    }],
+    "9": [{
+        "proficiency-bonus": "4",
+        "features": "Indomitable(one use)"
+    }],
+    "10": [{
+        "proficiency-bonus": "4",
+        "features": "Martial Archtype Feature"
+    }],
+    "11": [{
+        "proficiency-bonus": "4",
+        "features": "Extra Attack(two uses)"
+    }],
+    "12": [{
+        "proficiency-bonus": "4",
+        "features": "Ability Score Improvement"
+    }],
+    "13": [{
+        "proficiency-bonus": "5",
+        "features": "Indomitable(two use)"
+    }],
+    "14": [{
+        "proficiency-bonus": "5",
+        "features": "Ability Score Improvement"
+    }],
+    "15": [{
+        "proficiency-bonus": "5",
+        "features": "Martial Archtype Feature"
+    }],
+    "16": [{
+        "proficiency-bonus": "5",
+        "features": "Ability Score Improvement"
+    }],
+    "17": [{
+        "proficiency-bonus": "6",
+        "features": "Action Surge(two use), Indomitable(three uses)"
+    }],
+    "18": [{
+        "proficiency-bonus": "6",
+        "features": "Martial Archtype Feature"
+    }],
+    "19": [{
+        "proficiency-bonus": "6",
+        "features": "Ability Score Improvement"
+    }],
+    "20": [{
+        "proficiency-bonus": "6",
+        "features": "Extra Attack(3)"
+    }]
+
+}]
 },
     {
-        "id": 6,
-
+    "id": 6,
     "index": "monk",
     "name": "Monk",
-    "url": "/api/classes/monk"
+    "Monk":[{    
+        "1": [{
+            "proficiency-bonus": "2",
+            "features": "Unarmored Defence Martial Arts",
+            "Ki Points": "none",
+            "Martial Arts": "1d4",
+            "Unarmored Movement": "none"
+        }],
+        "2": [{
+            "proficiency-bonus": "2",
+            "features": "Ki, Unarmored Movement",
+            "Ki Points": "2",
+            "Martial Arts": "1d4",
+            "Unarmored Movement": "10ft"
+        }],
+        "3": [{
+            "proficiency-bonus": "2",
+            "features": "Monastic Tradition, Deflect Missiles",
+            "Ki Points": "3",
+            "Martial Arts": "1d4",
+            "Unarmored Movement": "10ft"
+        }],
+        "4": [{
+            "proficiency-bonus": "2",
+            "features": "Ability Score Improvement, Slow Fall",
+            "Ki Points": "4",
+            "Martial Arts": "1d4",
+            "Unarmored Movement": "10ft"
+        }],
+        "5": [{
+            "proficiency-bonus": "3",
+            "features": "Extra Attack, Stunning Strike",
+            "Ki Points": "5",
+            "Martial Arts": "1d6",
+            "Unarmored Movement": "10ft"
+        }],
+        "6": [{
+            "proficiency-bonus": "3",
+            "features": "Ki-Empowered Strikes, Monastic Tradition Feature",
+            "Ki Points": "6",
+            "Martial Arts": "1d6",
+            "Unarmored Movement": "15ft"
+        }],
+        "7": [{
+            "proficiency-bonus": "3",
+            "features": "Evasion, Stillness of Mind",
+            "Ki Points": "7",
+            "Martial Arts": "1d6",
+            "Unarmored Movement": "15ft"
+        }],
+        "8": [{
+            "proficiency-bonus": "3",
+            "features": "Ability Score Improvement",
+            "Ki Points": "8",
+            "Martial Arts": "1d6",
+            "Unarmored Movement": "15ft" 
+        }],
+        "9": [{
+            "proficiency-bonus": "4",
+            "features": "Unarmored Movement Improvement",
+            "Ki Points": "9",
+            "Martial Arts": "1d6",
+            "Unarmored Movement": "15ft"
+        }],
+        "10": [{
+            "proficiency-bonus": "4",
+            "features": "Purity of Blood",
+            "Ki Points": "10",
+            "Martial Arts": "1d6",
+            "Unarmored Movement": "20ft"
+        }],
+        "11": [{
+            "proficiency-bonus": "4",
+            "features": "Monastic Tradition Feature",
+            "Ki Points": "11",
+            "Martial Arts": "1d8",
+            "Unarmored Movement": "20ft"
+        }],
+        "12": [{
+            "proficiency-bonus": "4",
+            "features": "Ability Score Improvement",
+            "Ki Points": "12",
+            "Martial Arts": "1d8",
+            "Unarmored Movement": "20ft"
+        }],
+        "13": [{
+            "proficiency-bonus": "5",
+            "features": "Tongue of the Sun and Moon",
+            "Ki Points": "13",
+            "Martial Arts": "1d8",
+            "Unarmored Movement": "20ft"
+        }],
+        "14": [{
+            "proficiency-bonus": "5",
+            "features": "Diamond Soul",
+            "Ki Points": "14",
+            "Martial Arts": "1d8",
+            "Unarmored Movement": "25ft"
+        }],
+        "15": [{
+            "proficiency-bonus": "5",
+            "features": "Timeless Body",
+            "Ki Points": "15",
+            "Martial Arts": "1d8",
+            "Unarmored Movement": "25ft"
+        }],
+        "16": [{
+            "proficiency-bonus": "5",
+            "features": "Ability Score Improvement",
+            "Ki Points": "16",
+            "Martial Arts": "1d8",
+            "Unarmored Movement": "25ft"
+        }],
+        "17": [{
+            "proficiency-bonus": "6",
+            "features": "Monastic Tradition Feature",
+            "Ki Points": "17",
+            "Martial Arts": "1d10",
+            "Unarmored Movement": "25ft"
+        }],
+        "18": [{
+            "proficiency-bonus": "6",
+            "features": "Empty Body",
+            "Ki Points": "18",
+            "Martial Arts": "1d10",
+            "Unarmored Movement": "30ft"
+        }],
+        "19": [{
+            "proficiency-bonus": "6",
+            "features": "Ability Score Improvement",
+            "Ki Points": "19",
+            "Martial Arts": "1d10",
+            "Unarmored Movement": "30ft"
+        }],
+        "20": [{
+            "proficiency-bonus": "6",
+            "features": "Perfect Self",
+            "Ki Points": "20",
+            "Martial Arts": "1d110",
+            "Unarmored Movement": "30ft"
+        }]
+    
+    }]
 },
     {
-        "id": 7,
-
+    "id": 7,
     "index": "paladin",
-    "name": "Paladin",
-    "url": "/api/classes/paladin"
+    "name": "Paladin"
 },
     {
-        "id": 7,
-
+    "id": 7,
     "index": "ranger",
-    "name": "Ranger",
-    "url": "/api/classes/ranger"
+    "name": "Ranger"
 },
     {
-        "id": 8,
-
+    "id": 8,
     "index": "rogue",
-    "name": "Rogue",
-    "url": "/api/classes/rogue"
+    "name": "Rogue"
 },
     {
         "id": 9,
 
     "index": "sorcerer",
-    "name": "Sorcerer",
-    "url": "/api/classes/sorcerer"
+    "name": "Sorcerer"
 },
     {    
         "id": 10,
 
     "index": "warlock",
-    "name": "Warlock",
-    "url": "/api/classes/warlock"
+    "name": "Warlock"
 },
     {
         "id": 11,
 
     "index": "wizard",
-    "name": "Wizard",
-    "url": "/api/classes/wizard"
-}]}
+    "name": "Wizard"
+}
+]}
+]}
