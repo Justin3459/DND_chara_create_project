@@ -9,10 +9,9 @@ fetch("http://localhost:3000/classes")
 
 function createCardElement(classes){
     classes.forEach(element => {
-        let div = document.createElement("div")
         createFandBDivs(element)
-        
     });
+    
 
     // console.log(classes)
     
@@ -25,12 +24,21 @@ function createCardElement(classes){
         //create element to list to hold name and des
             // append list to container
             // Stretch: add photos to classes  
-            const card = document.getElementsByClassName('cardFront')
-            card.addEventListener('click', function (){
-                card.classList.toggle('is-flipped')}) 
+        cardFlip()
         };
 
-        function createFandBDivs(element){
+function cardFlip(){
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(function(card) {
+      card.addEventListener('click', function() {
+        this.classList.toggle('flipped');
+      });
+    });
+    // const cards = document.querySelectorAll('.card')
+            //     cards.addEventListener('click', function (){
+            //     this.classList.toggle('flipped')}) 
+}
+function createFandBDivs(element){
             //create card div
             let card = document.createElement("div")
             card.classList = "card"
@@ -65,7 +73,3 @@ function createCardElement(classes){
             card.append(cardBack, cardFront)
             document.getElementById("container").append(card)
         }
-
-function cardFlip(){
-    card.classList.toggle('is-flipped')
-}
