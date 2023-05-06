@@ -4,7 +4,9 @@
         "id": 1,
         "index": "barbarian",
         "name": "Barbarian",
-        "Barbarian": [{
+        "description": "For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.",
+        "image": "https://www.dndbeyond.com/avatars/thumbnails/6/342/420/618/636272680339895080.png",
+        "level": [{
             "1": [{
                 "proficiency-bonus": "2",
                 "features": "Rage, Unarmored Defence",
@@ -151,8 +153,10 @@
         "id": 2,
         "index": "bard",
         "name": "Bard",
-        "Bard": [{
-            "1": [{
+        "description": "Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds.",
+        "image": "https://www.dndbeyond.com/avatars/thumbnails/6/369/420/618/636272705936709430.png",
+        "level": [{
+        "1": [{
             "proficiency-bonus": "2",
             "features": "Spellcasting, Bardic Inspiration(1d6)",
             "Cantrips": "2",
@@ -283,12 +287,14 @@
             "Cantrips": "4",
             "Spells Known": "22"
         }]
-    },
+    }]},
     {
     "id": 3,
     "index": "cleric",
     "name": "Cleric",
-    "Cleric": [{
+    "description": "Clerics are intermediaries between the mortal world and the distant planes of the gods. As varied as the gods they serve, clerics strive to embody the handiwork of their deities. No ordinary priest, a cleric is imbued with divine magic.",
+    "image": "https://www.dndbeyond.com/avatars/thumbnails/6/371/420/618/636272706155064423.png",
+    "level": [{
         "1": [{
             "proficiency-bonus": "2",
             "features": "Spellcasting, Divine Domain",
@@ -426,7 +432,9 @@
     "id": 4,
     "index": "druid",
     "name": "Druid",
-    "Druid":[{    
+    "description": "Whether calling on the elemental forces of nature or emulating the creatures of the animal world, druids are an embodiment of nature’s resilience, cunning, and fury. They claim no mastery over nature. Instead, they see themselves as extensions of nature’s indomitable will.",
+    "image": "https://www.dndbeyond.com/avatars/thumbnails/6/346/420/618/636272691461725405.png",
+    "level":[{    
     "1": [{
         "proficiency-bonus": "2",
         "features": "Druidic, Spellcasting",
@@ -564,7 +572,9 @@
     "id": 5,
     "index": "fighter",
     "name": "Fighter",
-    "Fighter":[{    
+    "description": "All of these heroes are fighters, perhaps the most diverse class of characters in the worlds of Dungeons & Dragons. Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, and bandit kings—as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. And they are well acquainted with death, both meting it out and staring it defiantly in the face.",
+    "image": "https://www.dndbeyond.com/avatars/thumbnails/6/359/420/618/636272697874197438.png",
+    "level":[{    
     "1": [{
         "proficiency-bonus": "2",
         "features": "Fighting Style, Second Wind"
@@ -653,7 +663,9 @@
     "id": 6,
     "index": "monk",
     "name": "Monk",
-    "Monk":[{    
+    "description": "Whatever their discipline, monks are united in their ability to magically harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy infuses all that a monk does.",
+    "image": "https://www.dndbeyond.com/avatars/thumbnails/6/489/420/618/636274646181411106.png",
+    "level":[{    
         "1": [{
             "proficiency-bonus": "2",
             "features": "Unarmored Defence Martial Arts",
@@ -801,7 +813,9 @@
     "id": 7,
     "index": "paladin",
     "name": "Paladin",
-    "Paladin": [{
+    "description": "Whatever their origin and their mission, paladins are united by their oaths to stand against the forces of evil. Whether sworn before a god’s altar and the witness of a priest, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witness, a paladin’s oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.",
+    "image": "https://www.dndbeyond.com/avatars/thumbnails/6/365/420/618/636272701937419552.png",
+    "level": [{
         "1": [{
             "proficiency-bonus": "2",
             "features": "Divine Sense, Lay on Hands",
@@ -918,7 +932,9 @@
     "id": 8,
     "index": "ranger",
     "name": "Ranger",
-    "Ranger": [{
+    "description": "Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.",
+    "image": "https://www.dndbeyond.com/avatars/thumbnails/6/367/420/618/636272702826438096.png",
+    "level": [{
         "1": [{
             "proficiency-bonus": "2",
             "features": "Favored Enemy, Natural Explorer",
@@ -1035,7 +1051,9 @@
     "id": 9,
     "index": "rogue",
     "name": "Rogue",
-    "Rogue": [{
+    "description": "Rogues rely on skill, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.",
+    "image": "https://www.dndbeyond.com/avatars/thumbnails/6/384/420/618/636272820319276620.png",
+    "level": [{
         "1": [{
             "proficiency-bonus": "2",
             "features": "Expertise, Sneak Attack, Thieves' Cant",
@@ -1152,7 +1170,9 @@
     "id": 10,
     "index": "sorcerer",
     "name": "Sorcerer",
-    "Sorcerer": [{
+    "description": "Golden eyes flashing, a human stretches out her hand and unleashes the dragonfire that burns in her veins. As an inferno rages around her foes, leathery wings spread from her back and she takes to the air.",
+    "image": "https://www.dndbeyond.com/avatars/thumbnails/6/485/420/618/636274643818663058.png",
+    "level": [{
         "1": [{
             "proficiency-bonus": "2",
             "sorcerer-points":"none",
@@ -1309,7 +1329,9 @@
     "id": 11,
     "index": "warlock",
     "name": "Warlock",
-    "Warlock": [{
+    "description": "Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular. Drawing on the ancient knowledge of beings such as fey nobles, demons, devils, hags, and alien entities of the Far Realm, warlocks piece together arcane secrets to bolster their own power.",
+    "image": "https://www.dndbeyond.com/avatars/thumbnails/6/375/420/618/636272708661726603.png",
+    "level": [{
         "1": [{
             "proficiency-bonus": "2",
             "features": "Otherworldly Patron, Pact Magic",
@@ -1505,7 +1527,9 @@
     "id": 12,
     "index": "wizard",
     "name": "Wizard",
-    "Cleric": [{
+    "description": "Clad in the silver robes that denote her station, an elf closes her eyes to shut out the distractions of the battlefield and begins her quiet chant. Fingers weaving in front of her, she completes her spell and launches a tiny bead of fire toward the enemy ranks, where it erupts into a conflagration that engulfs the soldiers.",
+    "image": "https://www.dndbeyond.com/avatars/thumbnails/6/357/420/618/636272696881281556.png",
+    "level": [{
         "1": [{
             "proficiency-bonus": "2",
             "features": "Spellcasting, Arcane Recovery",
@@ -1638,5 +1662,4 @@
         }]
     }]
 }
-]}
 ]}
