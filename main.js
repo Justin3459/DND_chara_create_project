@@ -34,9 +34,6 @@ function cardFlip(){
         this.classList.toggle('flipped');
       });
     });
-    // const cards = document.querySelectorAll('.card')
-            //     cards.addEventListener('click', function (){
-            //     this.classList.toggle('flipped')}) 
 }
 function createFandBDivs(element){
             //create card div
