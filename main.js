@@ -1,14 +1,17 @@
-// fetch("https://www.dnd5eapi.co/api/classes").then(resp => resp.json()).then(json => console.log(json))
 fetch("http://localhost:3000/classes")
 .then(resp => resp.json())
 .then(classes => createCardElement(classes))
 .catch(error => console.log("failed to get"))
-// .then(classes => console.log(classes, element))
-//when element arguement is passed the page does not load
 function createCardElement(classes){
     classes.forEach(element => {
         createFandBDivs(element)
     });
+
+
+    cardFlip()
+
+};
+
 function createFandBDivs(element){
     let card = document.createElement("div")
     card.classList = "card"
@@ -34,7 +37,6 @@ function createFandBDivs(element){
 
     let desBack = document.createElement("p")
     // console.log(desBackInfo)
-    //need to create function to get information on the back
     desBack.textContent = getJsonData(element, levelSelect.value)
     cardBack.append(desBack)
 
@@ -42,8 +44,6 @@ function createFandBDivs(element){
     document.getElementById("container")
         .append(card)
 }
-
-    cardFlip()
 
 function cardFlip(){
     const cards = document.querySelectorAll('.card')
@@ -53,7 +53,8 @@ function cardFlip(){
       });
     });
 }
-};
+
+
 
 function getJsonData(obj, element){
     let jsonString = JSON.stringify(obj)
@@ -61,8 +62,7 @@ function getJsonData(obj, element){
     let levelData = jsonParse.level[0][element] 
     //need to iterate through nested object
     if (typeof levelData === "object"){
-    console.log(levelData)
-        return JSON.stringify(leveldata)
+        return JSON.stringify(levelData)
     }
     else {
         return levelData
