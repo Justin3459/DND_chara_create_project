@@ -1,16 +1,20 @@
+let classes;
+const levelSelect = document.getElementById("level-select")
+
 fetch("http://localhost:3000/classes")
 .then(resp => resp.json())
-.then(classes => createCardElement(classes))
+.then(data => {
+    classes = data
+    createCardElement(classes)})
 .catch(error => console.log("failed to get"))
+
 function createCardElement(classes){
     classes.forEach(element => {
         createFandBDivs(element)
-    });
-
+    })
 
     cardFlip()
-
-};
+}
 
 function createFandBDivs(element){
     let card = document.createElement("div")
@@ -18,10 +22,6 @@ function createFandBDivs(element){
 
     let cardFront = document.createElement("div")
     cardFront.classList = "cardFront"
-
-    let desFront = document.createElement("p")
-    desFront.textContent = element.description
-    cardFront.append(desFront)
 
     let h2 = document.createElement("h2")
     h2.id = "class-name"
@@ -32,11 +32,14 @@ function createFandBDivs(element){
     img.src = element.image
     h2.append(img)
 
+    let desFront = document.createElement("p")
+    desFront.textContent = element.description
+    cardFront.append(desFront)
+
     let cardBack = document.createElement("div")
     cardBack.classList = "cardBack"
 
     let desBack = document.createElement("p")
-    // console.log(desBackInfo)
     desBack.textContent = getJsonData(element, levelSelect.value)
     cardBack.append(desBack)
 
@@ -49,18 +52,15 @@ function cardFlip(){
     const cards = document.querySelectorAll('.card')
     cards.forEach(function(card) {
       card.addEventListener('click', function() {
-        this.classList.toggle('flipped');
-      });
-    });
+        this.classList.toggle('flipped')
+      })
+    })
 }
-
-
 
 function getJsonData(obj, element){
     let jsonString = JSON.stringify(obj)
     let jsonParse = JSON.parse(jsonString)
     let levelData = jsonParse.level[0][element] 
-    //need to iterate through nested object
     if (typeof levelData === "object"){
         return JSON.stringify(levelData)
     }
@@ -69,22 +69,15 @@ function getJsonData(obj, element){
     }  
 }   
 
-const levelSelect = document.getElementById("level-select")
-levelSelect.addEventListener("change", (e) => updateLevelInfo(e))
-//function to get level number from drop down
-function updateLevelInfo(e){
+levelSelect.addEventListener("change", (e) => {
     const selectedLevel = e.target.value
-    console.log(selectedLevel)
     const cards = document.querySelectorAll('.card')
-    //iterate through classes
-    cards.forEach(returnDesDetail(element))
-    const selectedObj = document.getElementById("class-select").value
-}
-//how to get nested object informantion. **
-function returnDesDetail(element){
-    let desBack = element.querySelector('.cardBack p')
-    let className = element.querySelector('.cardFront h2').textContent
-    //iterate through json to make a string then 
-    desBack.textContent = getJsonData(classes.find(c => c.name === className), selectedLevel)
-}
- 
+    cards.forEach(function(card) {
+        let desBack = card.querySelector('.cardBack p')
+        let element = card.querySelector('.cardFront h2').textContent
+        desBack.textContent = getJsonData(classes.find(c => c.name ===element), selectedLevel)
+    })
+})
+
+    
+
