@@ -44,7 +44,7 @@ function createFandBDivs(element){
     cardBack.append(desBack)
 
     card.append(cardBack, cardFront)
-    document.getElementById("card-container")
+    document.getElementById("container")
         .append(card)
 }
 
