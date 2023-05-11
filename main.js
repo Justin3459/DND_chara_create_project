@@ -114,10 +114,11 @@ function createFandBDivs(element){
     //button text is "create adventurer"
     let button = document.createElement("button")
     button.textContent = "Create Adventurer"
-    //add eventListener to push selected card to array/nest object
-    button.addEventListener('click' , )
+    // //add eventListener to push selected card to array/nest object
+    // button.addEventListener('click' , )
 
-    cardBack.appendChild(button)
+    // cardBack.appendChild(button)
+    cardFront.append(button)
     card.append(cardBack, cardFront)
     document.getElementById("container")
         .append(card)
