@@ -4,12 +4,14 @@
 ##Installation
 
 -git clone to local machine
+
    -ssh $ git@github.com:Justin3459/DND_chara_create_project.git
  
    -HTTP
       https://github.com/Justin3459/DND_chara_create_project.git
 
 -cd to DND_chara_create_project
+
 -To open html type "explorer.exe index.html" into terminal
 
  ##Features
