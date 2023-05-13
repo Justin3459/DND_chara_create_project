@@ -1,6 +1,17 @@
 # DND_chara_create_project
  The DND Previewer is a web app that allows the user to preview 12 different classes at various levels. This information is based off of DND 5e Player HandBook class section. This interactive application allows ther user to select a level and display information in the classes cards.
 
+##Installation
+
+-git clone to local machine
+   -ssh $ git@github.com:Justin3459/DND_chara_create_project.git
+ 
+   -HTTP
+      https://github.com/Justin3459/DND_chara_create_project.git
+
+-cd to DND_chara_create_project
+-To open html type "explorer.exe index.html" into terminal
+
  ##Features
 
  -two sided cards:
