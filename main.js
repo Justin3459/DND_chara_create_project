@@ -111,7 +111,7 @@ function createFandBDivs(element){
     let desBack = getJsonData(element, levelSelect.value)
     desBack.forEach(function (desLevel){
         let li = document.createElement('li')
-        li.textContent = desLevel
+        li.textContent = JSON.stringify(desLevel)
         ul.appendChild(li)
     })
     cardBack.appendChild(ul)
