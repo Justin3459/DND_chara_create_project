@@ -114,9 +114,8 @@ function createFandBDivs(element){
         li.textContent = desLevel
         ul.appendChild(li)
     })
-    
     cardBack.appendChild(ul)
-    
+
     //add button to bottom of the card. cardFront and cardBack.
     //button text is "create adventurer"
     let button = document.createElement("button")
@@ -145,10 +144,10 @@ function getJsonData(obj, element){
     let jsonParse = JSON.parse(jsonString)
     let levelData = jsonParse.level[0][element] 
     if (typeof levelData === "object"){
-        return JSON.stringify(levelData)
+        return levelData
     }
     else {
-        return levelData
+        return [levelData]
     }  
 }   
 
