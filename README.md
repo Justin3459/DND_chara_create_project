@@ -14,4 +14,13 @@
  -CSS
  -Javascript
 
- 
+ Sources
+ -Images taken from DNDBeyond:Player Handbook
+ -HTML,CSS,and Javascript All in One, Sams Teach Yourself 2nd edition
+-forEach : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+-JSON.stringify : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+-JSON.parse : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+-typeOf : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+-DropDown Menu : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
+-find : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+-find : https://jsonworld.com/blog/javascript-array-find-function-with-example
