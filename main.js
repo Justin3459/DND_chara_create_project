@@ -106,6 +106,8 @@ function createFandBDivs(element){
     let cardBack = document.createElement("div")
     cardBack.classList = "cardBack"
 
+    //create list. UL to LI?
+    let ul = document.createElement('ul')
     let desBack = document.createElement("p")
     desBack.textContent = getJsonData(element, levelSelect.value)
     cardBack.append(desBack)
