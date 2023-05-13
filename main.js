@@ -115,10 +115,10 @@ function createFandBDivs(element){
     //use desBack with a forEach to get level data?
     let li = document.createElement('li')
     desBack.forEach(function (desLevel){
-        console.log(desLevel)
+        li.textContent = desLevel
+        ul.appendChild(li)
     })
-    console.log(desBack)
-    cardBack.append(desBack)
+    cardBack.append(ul)
 
     //add button to bottom of the card. cardFront and cardBack.
     //button text is "create adventurer"
