@@ -106,15 +106,16 @@ function createFandBDivs(element){
     let cardBack = document.createElement("div")
     cardBack.classList = "cardBack"
 
+    //create list. UL to LI?
     let ul = document.createElement('ul')
-
-    let desBack = getJsonData(element, levelSelect.value)
-    desBack.forEach(function (desLevel){
-        let li = document.createElement('li')
-        li.textContent = JSON.stringify(desLevel)
-        ul.appendChild(li)
-    })
-    cardBack.appendChild(ul)
+    //append to ul.
+    let li = document.createElement('li')
+    //text content of li will be data from json. forEach?
+    //use getJsonData to get elements of level
+    
+    let desBack = document.createElement("li")
+    desBack.textContent = getJsonData(element, levelSelect.value)
+    cardBack.append(desBack)
 
     //add button to bottom of the card. cardFront and cardBack.
     //button text is "create adventurer"
@@ -144,10 +145,10 @@ function getJsonData(obj, element){
     let jsonParse = JSON.parse(jsonString)
     let levelData = jsonParse.level[0][element] 
     if (typeof levelData === "object"){
-        return levelData
+        return JSON.stringify(levelData)
     }
     else {
-        return [levelData]
+        return levelData
     }  
 }   
 
@@ -155,7 +156,7 @@ levelSelect.addEventListener("change", (e) => {
     const selectedLevel = e.target.value
     const cards = document.querySelectorAll('.card')
     cards.forEach(function(card) {
-        let desBack = card.querySelector('.cardBack p')
+        let desBack = card.querySelector('.cardBack li')
         let element = card.querySelector('.cardFront h2').textContent
         desBack.textContent = getJsonData(classes.find(c => c.name ===element), selectedLevel)
     })
