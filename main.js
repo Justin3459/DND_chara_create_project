@@ -112,7 +112,9 @@ function createFandBDivs(element){
     let li = document.createElement('li')
     //text content of li will be data from json. forEach?
     //use getJsonData to get elements of level
-    
+    //use fetch=>get to get level based off level select
+    //http://localhost:3000/classes =>level<= 
+
     let desBack = document.createElement("li")
     desBack.textContent = getJsonData(element, levelSelect.value)
     cardBack.append(desBack)
